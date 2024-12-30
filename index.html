@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qaleel Sha Backer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgaes/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Qaleel</span> <br>Sha Backer</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgaes/qaleel.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a second-year B.Tech Computer Science and Engineering student specializing in Data Science. 
+                       I am deeply passionate about using technology to analyze data, uncover insights, and solve real-world problems.
+                       My academic foundation is strengthened by practical experience, including an internship at CIGI Calicut,
+                       where I developed key skills in problem-solving, organization, and effective communication. With a strong interest in Artificial Intelligence and Machine Learning,
+                       I aim to create innovative solutions that drive meaningful change.
+                       I am constantly exploring opportunities to learn, grow, and contribute to impactful projects in the field of technology.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Fundamentals</span><br>Strong understanding of core programming concepts and proficiency in languages like Python, C, C++ and Java.</li>
+                            <li><span>Data Handling</span><br>Ability to work with data structures such as arrays, linked lists, and basic operations like sorting, searching, and manipulation.</li>
+                            <li><span>Problem-Solving</span><br>Foundational skills in breaking down complex problems and implementing logical, efficient solutions through coding.</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August' 23 - July' 27</span><br>Bachelor of Computer Science and Engineering at Lovely Professional University Punjab, India<br>CGPA: 8</li>
+                            <li><span>June' 22 - March' 23</span><br>Senior Secondary - Science<br>Percentage: 80</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>June' 24 - July' 24</span><br>Internship at CIGI Calicut</li>
+                            <li><span>Sep' 23 - Sep' 24</span><br>Hardware and Operating System Essential (IBM)</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Website Development</h2>
+                    <p>Creating responsive and user-friendly websites using HTML, CSS, and JavaScript, tailored to meet client needs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fas fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Developing visually appealing and functional interfaces by translating design mockups into interactive web pages.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Basic API Integration</h2>
+                    <p>Connecting frontend interfaces with backend APIs to enable dynamic content and user interactions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imgaes/work-1.png">
+                    <div class="layer">
+                        <h3>E-Commerce Fashion Website</h3>
+                        <p>Developed a full-stack e-commerce website with user authentication, shopping cart,
+                        and gaining experience in web development, UI design, database management, and backend logic.</p>
+                        <a href="https://qaleelsha.github.io/E-Commerce-Fashion-Website/"><i class="fas fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="imgaes/work-2.png">
+                    <div class="layer">
+                        <h3>Food Delivery Website</h3>
+                        <p>Deployed a food delivery website with user registration and restaurant listings.
+                        Awarded Runner-up at Byte-Bash India hackathon organized by LPU.</p>
+                        <a href="https://food4foodies.netlify.app/#"><i class="fas fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="imgaes/work-3.png">
+                    <div class="layer">
+                        <h3>Solar Panels and Subsidies Website</h3>
+                        <p>Developed a website to raise awareness about solar panel and subsidies as an academic project.</p>
+                        <a href="https://qaleelsha.github.io/Solar-Panels-and-Subsidies/"><i class="fas fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas far fa-paper-plane"></i>khaleelshabacker123@gmail.com</p>
+                    <p><i class="fas fas fa-phone-square-alt"></i>+91 9745632081</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/qaleel-sha-backer/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Qaleelsha"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/qaleelsha/profilecard/?igsh=MWo1ZjA4bTIxMXY2aA=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.hackerrank.com/profile/Qaleel_sha"><i class="fab fa-hackerrank"></i></a>
+                    </div>
+                    <a href="imgaes/QaleelShaBackerCV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fas far fa-copyright"></i> Qaleel Sha Bcker</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwB1_IM5D03siNfuc5wuAHT_f2IIlLpo3rt-AO8eEluU9ohN2qlw-_sPBE7jHNjo1bm/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!🤖"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
